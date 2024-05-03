@@ -1,0 +1,756 @@
+/* *{
+    font-family: 'Roboto', sans-serif;
+} */
+.crd-head {
+    position: sticky;
+}
+
+.card-heading {
+    padding-top: 130px;
+    margin-right: 520px;
+    font-size: 26px;
+}
+
+.card-heading h1 {
+    font-size: 26px;
+}
+
+.maldiv {
+    text-decoration: none;
+    margin-right: 1065px;
+    margin-top: 25px;
+}
+
+.share {
+    text-decoration: none;
+    margin-left: 1000px;
+    margin-top: -25px;
+}
+
+span {
+    color: black;
+}
+
+.im-cont {
+    display: flex;
+}
+
+.slide-img-1 {
+    width: 560px;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.slide-img-2 {
+    width: 560px;
+    padding: 10px;
+}
+
+.dome {
+    text-align: justify;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.dome h1 {
+    font-size: 22px;
+}
+
+.horrizontal {
+    border: 1px solid gray;
+    width: 87%;
+    margin-left: 67px;
+}
+
+.dive-cont-water {
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: -21px;
+    line-height: 1;
+    /* font-weight: 500; */
+}
+
+.dive-cont-water h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.wat-ico {
+    display: flex;
+    margin-left: 68px;
+    margin-top: 50px;
+}
+
+.dive-cont-star {
+    text-align: justify;
+    margin-left: 100px;
+    margin-top: -23px;
+    line-height: 1;
+}
+
+.dive-cont-star h4 {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.sta-ico {
+    display: flex;
+    margin-left: 65px;
+    margin-top: 50px;
+}
+
+.air-img {
+    height: 26px;
+    width: 126px;
+    margin-right: 1000px;
+    margin-top: 40px;
+}
+
+.air-contener p {
+    text-align: justify;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-weight: 490;
+}
+
+.air-contener span {
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 1040px;
+}
+
+.paragraph-card {
+    text-align: justify;
+    margin-left: 67px;
+    padding-right: 510px;
+    margin-top: 55px;
+    margin-bottom: 50px;
+    font-weight: 490;
+}
+
+.bed-icon {
+    margin-right: 90px;
+    font-size: 25px;
+    margin-top: 23px;
+}
+
+.bed-heading h2 {
+    font-size: 22px;
+    padding-bottom: 20px;
+    margin-right: 940px;
+    margin-top: 40px;
+}
+
+.bed-div {
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    max-width: 207px;
+    margin-left: 65px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.bed-paragraph {
+    margin-right: 47px;
+}
+
+.bed-paragraph h6 {
+    margin-left: 25px;
+    font-weight: normal;
+
+}
+
+.funct-heading h1 {
+    font-size: 26px;
+    margin-right: 860px;
+    margin-top: 40px;
+}
+
+.wifi-icon {
+    margin-right: 1090px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.wifi-text {
+    margin-top: -27px;
+    margin-left: 80px;
+    margin-right: 1080px;
+    margin-top: -25px;
+}
+
+.tv-icon {
+    margin-right: 1090px;
+    margin-top: 5px;
+}
+
+.tv-text {
+    margin-top: -27px;
+    margin-left: 80px;
+    margin-right: 1085px;
+    margin-top: -25px;
+}
+
+.hair-dryer-icon {
+    margin-right: 1090px;
+    margin-top: 5px;
+}
+
+.hair-dryer-text {
+    margin-top: -27px;
+    margin-left: 80px;
+    margin-right: 1030px;
+    margin-top: -25px;
+}
+
+.hotel-icon {
+    margin-right: 1090px;
+    margin-top: 5px;
+}
+
+.hotel-text {
+    margin-top: -27px;
+    margin-left: 80px;
+    margin-right: 927px;
+    margin-top: -25px;
+    /* display: flex; */
+}
+
+.pool-icon {
+    margin-right: 530px;
+    margin-top: -110px;
+}
+
+.pool-text {
+    margin-right: 450px;
+    margin-top: -23px;
+}
+
+.air-conditioning-icon {
+    margin-right: 530px;
+    margin-top: 5px;
+}
+
+.air-conditioning-text {
+    margin-right: 365px;
+    margin-top: -23px;
+}
+
+.breakfast-icon {
+    margin-right: 530px;
+    margin-top: 5px;
+}
+
+.breakfast-text {
+    margin-right: 417px;
+    margin-top: -23px;
+}
+
+.button {
+    margin-top: 60px;
+    margin-right: 920px;
+    width: 200px;
+    background: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 15px 15px 12px 15px;
+    margin-bottom: 40px;
+}
+
+.button:hover {
+    color: black;
+}
+
+.calender-heading {
+    font-size: 1.75rem;
+    margin-top: 40px;
+    margin-right: 900px;
+}
+
+.calender-paragraph {
+    margin-right: 948px;
+    margin-top: -7px;
+}
+
+.react-calendar {
+    margin-left: 72px;
+}
+
+.review-icon {
+    margin-right: 1085px;
+    ;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.review-text h3 {
+    font-size: 1.75rem;
+    margin-right: 825px;
+    margin-top: -31px;
+}
+
+.r1 {
+    margin-right: 1025px;
+    margin-top: 30px;
+}
+
+.r1-icon {
+    font-size: 20px;
+    margin-right: 710px;
+    margin-top: -43px;
+}
+
+.r2 {
+    margin-right: 990px;
+    margin-top: 20px;
+}
+
+.r2-icon {
+    font-size: 20px;
+    margin-right: 710px;
+    margin-top: -43px;
+}
+
+.r3 {
+    margin-right: 1041px;
+    margin-top: 20px;
+}
+
+.r3-icon {
+    font-size: 20px;
+    margin-right: 710px;
+    margin-top: -43px;
+}
+
+.r4 {
+    margin-right: 250px;
+    margin-top: -121px;
+}
+
+.r4-icon {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: -43px;
+}
+
+.r5 {
+    margin-right: 252px;
+    margin-top: 19px;
+}
+
+.r5-icon {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: -43px;
+}
+
+.r6 {
+    margin-right: 270px;
+    margin-top: 19px;
+}
+
+.r6-icon {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: -43px;
+}
+
+
+.person1-img img {
+    margin-top: 50px;
+    margin-right: 1065px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.person1-name {
+    margin-top: -40px;
+    margin-right: 860px;
+}
+
+.person1-year {
+    margin-right: 900px;
+    margin-top: -19px;
+}
+
+.person1-para {
+    margin-left: 74px;
+    text-align: justify;
+}
+
+.person1-btn {
+    border: none;
+    background: white;
+    text-decoration: underline;
+    margin-right: 1030px;
+}
+
+.person2-img img {
+    margin-top: 50px;
+    margin-right: 1065px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.person2-name {
+    margin-top: -40px;
+    margin-right: 888px;
+}
+
+.person2-year {
+    margin-right: 900px;
+    margin-top: -19px;
+}
+
+.person2-para {
+    margin-left: 74px;
+    text-align: justify;
+}
+
+.person2-btn {
+    border: none;
+    background: white;
+    text-decoration: underline;
+    margin-right: 1030px;
+}
+
+.person3-img img {
+    margin-top: 50px;
+    margin-right: 1065px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.person3-name {
+    margin-top: -40px;
+    margin-right: 892px;
+}
+
+.person3-year {
+    margin-right: 900px;
+    margin-top: -19px;
+}
+
+.person3-para {
+    margin-left: 74px;
+    text-align: justify;
+}
+
+.person3-btn {
+    border: none;
+    background: white;
+    text-decoration: underline;
+    margin-right: 1030px;
+}
+
+.person4-img img {
+    margin-top: 50px;
+    margin-right: 1065px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.person4-name {
+    margin-top: -40px;
+    margin-right: 860px;
+}
+
+.person4-year {
+    margin-right: 900px;
+    margin-top: -19px;
+}
+
+.person4-para {
+    margin-left: 74px;
+    text-align: justify;
+}
+
+.person4-btn {
+    border: none;
+    background: white;
+    text-decoration: underline;
+    margin-right: 1030px;
+}
+
+.person5-img img {
+    margin-top: -1674px;
+    margin-right: -250px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.person5-name {
+    margin-top: -866px;
+    margin-right: -468px;
+}
+
+.person5-year {
+    margin-right: -430px;
+    margin-top: -19px;
+}
+
+.person5-para {
+    margin-left: 735px;
+    text-align: justify;
+}
+
+.person5-btn {
+    border: none;
+    background: white;
+    text-decoration: underline;
+    margin-right: -295px;
+}
+
+.person6-img img {
+    margin-top: -1230px;
+    margin-right: -250px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.person6-name {
+    margin-top: -639px;
+    margin-right: -430px;
+}
+
+.person6-year {
+    margin-right: -430px;
+    margin-top: -19px;
+}
+
+.person6-para {
+    margin-left: 735px;
+    text-align: justify;
+}
+
+.person6-btn {
+    border: none;
+    background: white;
+    text-decoration: underline;
+    margin-right: -295px;
+}
+
+.person7-img img {
+    margin-top: -782px;
+    margin-right: -250px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.person7-name {
+    margin-top: -416px;
+    margin-right: -455px;
+}
+
+.person7-year {
+    margin-right: -430px;
+    margin-top: -19px;
+}
+
+.person7-para {
+    margin-left: 735px;
+    text-align: justify;
+}
+
+.person7-btn {
+    border: none;
+    background: white;
+    text-decoration: underline;
+    margin-right: -295px;
+}
+
+.person8-img img {
+    margin-top: -335px;
+    margin-right: -250px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.person8-name {
+    margin-top: -192px;
+    margin-right: -433px;
+}
+
+.person8-year {
+    margin-right: -430px;
+    margin-top: -19px;
+}
+
+.person8-para {
+    margin-left: 735px;
+    text-align: justify;
+}
+
+.person8-btn {
+    border: none;
+    background: white;
+    text-decoration: underline;
+    margin-right: -295px;
+}
+
+.all-review-btn {
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    font-weight: 500;
+    margin-right: 960px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.map-heading h2 {
+    margin-right: 900px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.map-heading p {
+    margin-right: 1060px;
+}
+
+.google-map {
+    margin-bottom: 40px;
+}
+
+.lookbook-img img {
+    margin-right: 1040px;
+    height: 64px;
+    width: 64px;
+    margin-top: 70px;
+}
+
+.lookbook-text h2 {
+    margin-right: 700px;
+    margin-top: -65px;
+    font-size: 22px;
+}
+
+.lookbook-text p {
+    margin-right: 750px;
+    margin-top: -8px;
+    font-size: 15px;
+}
+
+.star-icon {
+    margin-right: 1100px;
+    margin-top: 40px;
+}
+
+.star-year p {
+    margin-right: -115px;
+    margin-top: -22px;
+}
+
+.checked-icon {
+    margin-right: 785px;
+    margin-top: -40px;
+}
+
+.checked-year p {
+    margin-top: -23px;
+    margin-left: 145px;
+}
+
+.lookbook-paragraph p {
+    text-align: justify;
+    margin-left: 72px;
+    max-width: 500px;
+}
+
+.lookbook-para2 p {
+    margin-top: 65px;
+    margin-bottom: -50px;
+}
+
+.contact-host-btn button {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+    /* margin-left: 2px; */
+    margin-right: 100px;
+    margin-top: 15px;
+    background: white;
+    font-weight: bold;
+    color: black;
+}
+
+.contact-host-btn {
+    margin-right: 900px;
+    margin-top: 60px;
+}
+
+.warning-icon {
+    margin-right: 1105px;
+    margin-top: 5px;
+}
+
+.thinking-heading h2 {
+    font-size: 2rem;
+    margin-right: 900px;
+    margin-top: 50px;
+}
+
+.col {
+    margin-right: 870px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 8px;
+    border: 2px solid gray;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.house {
+    line-height: 0.1;
+    padding-top: 15px;
+    /* padding-bottom: 3px; */
+
+    margin-right: 920px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border: 2px solid rgb(203, 193, 193);;
+}
+
+.health{
+    margin-right: 319px;
+    margin-top: -92px;
+}
+.health-srt-icon {
+    margin-right: -195px;
+    margin-top: -20px;
+}
+.health-watc-icon{
+    margin-left: 78px;
+    margin-top: -17px;
+}
+.health-smok-icon{
+    margin-top: -17px;
+}
+
+.Cancellation{
+    margin-bottom: 75px;
+}
+
+.Cancel-heading {
+    margin-top: -106px;
+    margin-left: 475px;
+}
+.Cancel-para {
+    margin-left: 800px;
+    margin-top: -15px;
+    text-align: justify;
+    margin-bottom: 40px;
+}

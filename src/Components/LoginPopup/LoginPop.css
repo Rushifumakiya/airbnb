@@ -1,0 +1,50 @@
+
+.login-popup-box {
+    margin-left: 390px;
+    position: absolute;
+    top: 110px;
+    width: 38%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-popup-content-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    height: 350px;
+    margin-top: -1px;
+  }
+
+  .card-body{
+    margin-top: -10px;
+    margin-bottom: -20px;
+  }
+
+  .head{
+    text-align: left;
+  }
+
+  .fw-bold{
+    text-align: start;
+  }
+  .login-popup-content-item * {
+    font-size: 14px;
+  }
+
+  .login-popup-content-item h2 {
+    font-size: 20px;
+  }
+
+  .login-popup-content-item label {
+    font-size: 14px;
+  }
+
+  .login-popup-content-item button {
+  font-size: 14px;
+  padding: 5px 10px; 
+}
+  

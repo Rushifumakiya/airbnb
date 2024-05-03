@@ -1,0 +1,88 @@
+*{
+    margin: 0px; 
+    padding: 0px; 
+}
+.Header{
+    background-color: #030e56;  
+    height: 85px; 
+    display: flex;
+    position: fixed;
+    z-index: 50;
+}
+.logo{
+    float: left; 
+    vertical-align: middle; 
+    padding-top: 25px; 
+    padding-left: 25px;
+}
+.list{
+    color: white; 
+    text-decoration: none;
+    text-align: center;
+}
+.host{
+    display: inline-flex;
+    margin-left: 107px;
+}
+.Become{
+    color: white;
+    text-decoration: none;
+    margin-right: 114px;
+    
+}
+
+.earth-icon{
+    margin-top: -2px;
+    margin-left: 3px;
+}
+
+.dropdown{
+    display: inline-flex; 
+    float: right; 
+
+    
+}
+
+#dropdown-basic{
+    background: white; 
+    color: black;
+    /* margin-top: 25px; */
+    /* margin-left: 35px; */
+    width: 65px;
+
+}
+.header-menu span{ 
+    display: inline-flex; 
+    margin-top: 18px; 
+    padding: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+#host{
+    display: inline-flex; 
+    color: white; 
+    text-decoration: none;
+    margin-left: 153px;
+}
+.places{
+        display: inline;
+        padding-inline-start: 160px;
+}
+
+#dropdown-basic{
+    padding: 1px;
+    margin-right: 15px;
+    margin-top: -55px;
+    border-radius: 25px;
+    width: 105px;
+    align-content: space-between;
+}
+
+.line{
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.user{
+    margin-right: 5px;
+    vertical-align: middle;
+}

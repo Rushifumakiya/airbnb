@@ -1,0 +1,25 @@
+#FirstSection{
+    background-color: black;
+    height: 348px;
+    width: 100%;
+    /* height: fit-content; */
+    /* overflow: auto; */
+    
+}
+
+h1.host-heading{
+    font-size: 64px;
+    text-align: center;
+    padding-bottom: 18px;
+    color: white;
+    margin-top: 33px;
+    margin-right: 5px;
+    line-height: 1.2;
+    padding: 30px;
+}
+
+.btn{
+    width: 120px;
+    height: 50px;
+    margin-right: 47px;
+}

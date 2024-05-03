@@ -1,0 +1,43 @@
+/* Footer Container */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    white-space: nowrap;
+    justify-content: space-between;
+    margin-left: 25px;
+  }
+  
+  /* Footer Sections */
+  footer div {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 20px;
+  }
+  
+  /* Footer Headings */
+  footer h5 {
+    color: #333;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  /* Footer List */
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Footer List Items */
+  footer li {
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  /* Footer List Item Links */
+  footer li Link {
+    color: #212529;
+    text-decoration: none;
+  }
+  

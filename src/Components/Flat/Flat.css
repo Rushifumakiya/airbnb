@@ -1,0 +1,96 @@
+/* .gradient-sec img{
+    width: 720px;
+    height: 678px;
+    float: left;
+}
+
+.gradient-sec h1{
+    float: left;
+    margin-top: -420px;
+    margin-left: 2px;
+    font-size: xxx-large;
+    color: white;
+}
+
+.btn-container-sec {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+  }
+
+.large-button{
+    text-align:start;
+    height: 85px;
+}
+
+.large-button h3, h6{
+    margin-left: 20px;
+}
+
+.large-con{
+   margin-top: -60px;
+} */
+
+.gradient-sec img{
+    width: 720px;
+    height: 645px;
+    float: left;
+    /* position: sticky; */
+}
+
+.gradient-sec h1{
+    float: left;
+    margin-top: -420px;
+    margin-left: 2px;
+    font-size: xxx-large;
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+  }
+  
+.button-fir {
+    margin-top: -40px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding: 7px 10px;
+    border-radius: 20px; /* Adjust the radius as needed */
+    background-color: white; /* Example background color */
+    color: black;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .button-fir:hover {
+    color: blue; /* Darker color on hover */
+  }
+
+  .btn-container button{
+    margin-left: 30px;
+  }
+
+  .large-cont{
+    margin-top: -60px;
+  }
+
+  .large-btn {
+    width: 510px;   
+    border-radius: 9px;
+    height: 65px;
+    background: white;
+    border: 2px solid rgb(203, 193, 193);
+    text-align: justify;
+    padding-left: 25px;
+}
+
+.large-btn:hover{
+    background: blueviolet;
+    color: white;
+    border: 2px solid black;
+    /* animation-delay: 5s; */
+}
+  

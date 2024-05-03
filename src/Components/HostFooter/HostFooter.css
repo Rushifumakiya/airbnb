@@ -1,0 +1,50 @@
+.footer {
+    float: inline-start;
+    display: inline-flex;
+    text-align: justify;
+    text-decoration: none
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.0rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer{
+    line-height: 2.0;
+    margin-top: 30px;
+    background: white;
+}
+
+.Support-section{
+    margin-right: 70px;
+}
+.Support-section h5{
+    font-weight: bold;
+}
+
+.Community-section{
+    margin-right: 70px;
+}
+.Community-section h5{
+    font-weight: bold;
+}
+
+.Hosting-section{
+    margin-right: 70px;
+}
+.Hosting-section h5{
+    font-weight: bold;
+}
+
+.Airbnb-section{
+    margin-right: 70px;
+}
+.Airbnb-section h5{
+    font-weight: bold;
+}

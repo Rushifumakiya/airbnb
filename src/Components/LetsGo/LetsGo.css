@@ -1,0 +1,61 @@
+.gradient-image img{
+    width: 720px;
+    height: 645px;
+    float: left;
+    /* position: sticky; */
+}
+
+.gradient-image h1{
+    float: left;
+    margin-top: -420px;
+    margin-left: 2px;
+    font-size: xxx-large;
+    color: white;
+}
+
+.gradient-top-buttons-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+  }
+  
+  .button-small {
+    margin-top: -40px;
+    margin-left: 15px;
+    padding-left: 15px;
+    padding: 7px 10px;
+    border-radius: 20px; /* Adjust the radius as needed */
+    background-color: white; /* Example background color */
+    color: black;
+    cursor: pointer;
+    border: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .button-small:hover {
+    color: blue; /* Darker color on hover */
+  }
+
+  .gradient-top-buttons-container button{
+    margin-left: 30px;
+  }
+
+  .large-button-container{
+    margin-top: -60px;
+  }
+
+  .large-button {
+    width: 510px;   
+    border-radius: 9px;
+    height: 65px;
+    background: white;
+    border: 2px solid rgb(203, 193, 193);
+    text-align: center;
+}
+
+.large-button:hover{
+    background: blueviolet;
+    color: white;
+    /* animation-delay: 5s; */
+}
+  
